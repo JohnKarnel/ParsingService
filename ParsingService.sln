@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParsingService", "ParsingService\ParsingService.csproj", "{0740E5EB-5234-487D-BD7B-D803A523EF38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinParsingService", "WinParsingService\WinParsingService.csproj", "{1E46362F-AC1A-4230-A1EA-453D415AAB8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParserClient", "ParserClient\ParserClient.csproj", "{A4B50B3B-0F5A-4A5E-A97A-E649F8212AD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0740E5EB-5234-487D-BD7B-D803A523EF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0740E5EB-5234-487D-BD7B-D803A523EF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0740E5EB-5234-487D-BD7B-D803A523EF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0740E5EB-5234-487D-BD7B-D803A523EF38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E46362F-AC1A-4230-A1EA-453D415AAB8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E46362F-AC1A-4230-A1EA-453D415AAB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E46362F-AC1A-4230-A1EA-453D415AAB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E46362F-AC1A-4230-A1EA-453D415AAB8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B50B3B-0F5A-4A5E-A97A-E649F8212AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B50B3B-0F5A-4A5E-A97A-E649F8212AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B50B3B-0F5A-4A5E-A97A-E649F8212AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B50B3B-0F5A-4A5E-A97A-E649F8212AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

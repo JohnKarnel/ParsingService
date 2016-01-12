@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2383ed0a-5b8d-4d55-b05a-d061f1705be0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9001/ParsingService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ParsingService.xsd" MetadataType="Schema" ID="4cb1456e-258e-4255-93e0-17db6d7357f2" SourceId="1" SourceUrl="http://localhost:9001/ParsingService?xsd=xsd1" />
+    <MetadataFile FileName="ParsingService1.xsd" MetadataType="Schema" ID="ba5c7dac-0ee1-4b72-b9d9-3403a9ae807e" SourceId="1" SourceUrl="http://localhost:9001/ParsingService?xsd=xsd0" />
+    <MetadataFile FileName="ParsingService.wsdl" MetadataType="Wsdl" ID="b6d2f247-66a3-439b-a321-0e365749d103" SourceId="1" SourceUrl="http://localhost:9001/ParsingService?wsdl" />
+    <MetadataFile FileName="ParsingService.disco" MetadataType="Disco" ID="782f36f4-e922-4f77-9a7d-156372daa994" SourceId="1" SourceUrl="http://localhost:9001/ParsingService?disco" />
+    <MetadataFile FileName="ParsingService2.xsd" MetadataType="Schema" ID="f4256c31-d03d-4fb7-9f65-e973e130ab5d" SourceId="1" SourceUrl="http://localhost:9001/ParsingService?xsd=xsd3" />
+    <MetadataFile FileName="ParsingService3.xsd" MetadataType="Schema" ID="2c9fbc8f-ce35-4de4-895e-c347622d240f" SourceId="1" SourceUrl="http://localhost:9001/ParsingService?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
